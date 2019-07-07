@@ -1,27 +1,79 @@
+<!-- ----------------------------------------------------------------------- -->
+<!-- ...................WELCOME to THE CAVE of WONDERS...................... -->
+<!--This is The Back End for 'Fatemah's Portfolio & Fantastic Notes' Webpage -->
+<!-- ----------------------------------------------------------------------- -->
+
+
+<!-- Greetings CodEd Full-Stack Bootcamp cohort of Summer 2019!              -->
+
+
+<!-- [[   LOG ONE   ]] - Day 8 - June 7, 2019: -->
+
+    <!-- Hi! I like to take notes in HTML5 and CSS3! -->
+
+    <!-- You can too by pressing the [command] and [?] keys together to insert tags similar to how # is used to hide code/take notes when using Python3-->
+
+      <!--    **TIP**    use the [command] and [+] or [-] keys to increase or decrease the font size displayed on Sublime or web browser -->
+
+  <!-- HTML tells the program where to place the text, CSS determines how the text is displayed -->
+
 <! DOCTYPE html>
-
+  <!--This declares the document type which tells the browser what to expect from the file, i.e. the language used here is HTML5; see <html> tag below-->
 <html>
-
-<body>
-  <h1>Portfolio Task</h1>
-  <div id=“practicing the hypertext markup language”>
-    <h2>About Me:</h2>
-    <h3>Name</h3>
-    <p>Fatemah Al-Hajji <em>aka</em> Fatoom</p>
-    <h3>Email</h3>
-    <p>f.alhajji@gmail.com</p>
-    <h3>Github Username</h3>
-    <p><a href=“https://github.com/falhajji”>falhajji</a></p>
-    <h3>Hobbies and Interests</h3>
-    <ul>
-      <li>Sports and fitness</li>
-      <li>Fresh seafood</li>
-      <li>Toying with HTML</li>
-      <li>Messing up my sleep schedule with naps<strong><em> and/or </em></strong>staying up all night</li>
-    </ul>
+  <head>
+    <!--Other information about the page goes under the head section too; we're not there yet, though-->
+    
+    <title>Fatemah's Portfolio & Fantastic Notes</title>
+    <!--This text defines a title on the top of the browser's toolbar/tab... And if the <title> is omitted, the document will not validate as HTML-->
+    
+    <link href="style.css" type ="text/css" rel="stylesheet"> 
+    <!-- ^^ This links this *.HTML with the stylesheet    ^^ this specifies the relationship between this file (portfolio.html) & the (style.css) file  -->
+  </head>
+  <body>
+    <!-- This is everything the user will see in the page -->
+    <h1 align="center">The Front End of Fatemah's Portfolio</h1>
+      <div id="type_your_id_name_here">
+      <!-- the DIV TAG by itself doesn't do anything but is useful when styling a certain part of a page-->
+      <!-- an ID TAG is used to divide and style a segment of text-->
+      </div>
+    <h2>About Me: </h2>
+      <h3>Name</h3>
+        <p>Fatemah Al-Hajji <em class="funny">aka</em> Fatoom</p>
+        <!--a CLASS tag is used to style multiple items-->
+      <h3>Email</h3>
+        <p>f.alhajji@gmail.com</p>
+        <!-- hyperlink me I want to be able to send an email KIWI -->
+      <h3>Github Username</h3>
+        <ul>
+          <p> <a href='https://github.com/falhajji/'>falhajji</a></p>
+        <!--an ANCHOR TAG used to link text in white to the URL in yellow -->
+        </ul> 
+    <h2 id="hobbies_list">Hobbies and Interests: </h2>
+      <h3 class="list-selector">Sports and fitness</h3>
+        <ul>
+          <li>Long walks in shopping malls and running on treadmills</Li>
+          <li>Volleyball</li>
+          <li>Rollerblading</li>
+        </ul>
+      <h3>Food and Dining <em>al fresco</em>..</h3>
+        <ul>
+        <li>The Good - Fresh Seafood, tart fruits and crunchy salads</li>
+        <li>The Bad - Sour candy, spicy potato chips, chocolate and all butter-biscuits</Li>
+        <li>The Ugly - I cannot say <em class="funny">no</em> to popcorn or ice cream (==) </li>
+        </ul>
+      <h3>Toying with HTML and taking excessive coding notes</h3>
+        <ul>
+          <li>If you think I'm talkative in class, wait until you see my notes on Sublime... </li>
+        </ul>
+      <h3>Messing up my sleep schedule with naps<strong><em> and/or </em></strong>staying up all night</h3>
+      <ul>
+          <li>This is thanks to my random eating schedule</li>
+          <li>Coding is also helping with this disorder</li>
+        </ul>
     <h2>Current Mood:</h2>
-      <img src=“https://static1.squarespace.com/static/56bdf9621bbee0525903c1d4/56dc49ed04426203948838d2/57893d7c9f745649f5327add/1482940051743/Eat-Sleep-Code-Repeat-Desi-Shirt-Design.jpg?format=300w” alt=“eat sleep code repeat”/>
-  </div>
-</body>
+      <img src="https://static1.squarespace.com/static/56bdf9621bbee0525903c1d4/56dc49ed04426203948838d2/57893d7c9f745649f5327add/1482940051743/Eat-Sleep-Code-Repeat-Desi-Shirt-Design.jpg?format=300w" alt="eat sleep code repeat"/>
+  </body>
 
 </html>
+
+ <!-- e.g. <h1 style= "color: red"

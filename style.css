@@ -1,0 +1,70 @@
+/*
+------------------------------------------------------------------------------- 
+........................WELCOME to THE CAVE of WONDERS......................... 
+   This is The Stylecheet for 'Fatemah's Portfolio & Fantastic Notes' webpage!
+--------------------------------------------------------------------------------
+
+
+Greetings (again!) CodEd Full-Stack Bootcamp cohort of Summer 2019!             
+
+
+[[   LOG ONE   ]] - Day 8:
+
+    Hi! I like to take notes while coding in HTML5 and CSS3! 
+
+    You can too by pressing the [command] and [?] keys together to insert tags similar to how # is used to hide code/take notes when using Python3
+
+ 			**TIP**    	use the [command] and [+] or [-] keys to increase or decrease the font size displayed on Sublime or web browser
+------------------------------------------------------------------------------
+
+	Some examples how to style elements of the webpage */
+
+h2 {
+	color : white;
+	font-style : oblique;
+	font-family: ;
+}
+
+/*------------------------------------------------------------------------------
+
+	This is an example of an ID tag*/
+
+hobbies_list {
+	font-style: italic;
+}
+/*					This is how we apply a style to a single element: 									Divide it and create an id tag!*/
+
+type_your_id_name_here {
+	text-align: center;
+	font-family: cursive;
+	color: blue
+}
+
+/* To ID a segment of text, go to its tag and type id="type_your_id_name_here"
+	See example on portfolio.html under the <div> tag in the <body> under <h1>
+/*----------------------------------------------------
+
+/*	This is an example of a CLASS tag*/
+
+/* To apply the same style to multiple elements: tag them into a class [[ class =list-selector]]
+
+.list-selector {
+	background-color: yellow
+
+}*/
+
+
+.funny {
+	color: red;
+	text-decoration: underline;
+}
+/*----------------------------------------------------
+*//* You can place an element under more than one class style, just list them [[ class = list-selector funny]]*/
+
+body {
+	background-image: url("https://desktopwalls.net/wp-content/uploads/2015/09/Morning%20Dew%20On%20Grass%20Threads%204K%20Ultra%20HD%20Desktop%20Wallpaper.jpg");
+	width: 500px;
+	height: 70px;
+	border-radius: 100px;
+	color: white;
+}

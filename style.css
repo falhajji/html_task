@@ -1,7 +1,7 @@
 /*
 ------------------------------------------------------------------------------- 
 ........................WELCOME to THE CAVE of WONDERS......................... 
-   This is The Stylecheet for 'Fatemah's Portfolio & Fantastic Notes' webpage!
+   This is The Stylesheet for 'Fatemah's Portfolio & Fantastic Notes' webpage!
 --------------------------------------------------------------------------------
 
 
@@ -29,12 +29,12 @@ h2 {
 
 	This is an example of an ID tag*/
 
-hobbies_list {
+#hobbies_list {
 	font-style: italic;
 }
 /*					This is how we apply a style to a single element: 									Divide it and create an id tag!*/
 
-type_your_id_name_here {
+#type_your_id_name_here {
 	text-align: center;
 	font-family: cursive;
 	color: blue
